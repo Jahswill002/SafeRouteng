@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0B2545;
+  --color-accent: #f59e0b; /* Amber */
+  --color-success: #10b981; /* Safety-green CTA */
+  --color-surface: #f3f4f6; /* Soft neutral surface */
+  --font-sora: "Sora", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-inter);
+    color: #1f2937;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sora);
+  }
+}

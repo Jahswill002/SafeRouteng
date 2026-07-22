@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.output/
+.vinxi/
+.env
+.wrangler/
+d1_output.txt
+create-start-help.txt
+create-start-help2.txt
