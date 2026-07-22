@@ -1,0 +1,9 @@
+name = "saferoute-ng"
+compatibility_date = "2024-04-05"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "saferoute-ng-db"
+database_id = "0e7eaf07-e862-4179-aebb-b56febc5e226"
+migrations_dir = "migrations"
